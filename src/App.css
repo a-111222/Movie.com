@@ -30,25 +30,24 @@ body {
 }
 .input{
     display: block;
-    margin: 2% auto 2% auto;
+    margin: 4% auto 4% auto;
     padding: 1% 5%;
     outline: 0;
-    border: none;
     border-radius: 24px;
     text-align: center;
     border: 1px solid #000;
 }
 .button{
-    padding: 1%;
-    border-radius: 25px;
+    border-radius: 24px;
+    padding: 11px;
     outline: 0;
     border: 1px solid #000;
     cursor: pointer;
-    margin-bottom: 4%;
     font-weight: bold;
     font-family: sans-serif;
     letter-spacing: 1px;
-
+    display: inline-block;
+    margin: 7% auto;
 }
 .card{
     width: 400px;
@@ -74,6 +73,12 @@ p i{
 }
 .textCenter{
     font-family: inherit;
+    letter-spacing: 6px;
+    text-align: center;
+    font-weight: 300;
+    width: 100%;
+    display: block;
+    float: left;   font-family: inherit;
     letter-spacing: 6px;
     text-align: center;
     font-weight: 300;

@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import './Style.css';
 
 function Movie() {
          //states - input query movies //
