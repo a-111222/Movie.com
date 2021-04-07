@@ -30,25 +30,30 @@ body {
 }
 .input{
     display: block;
-    margin: 4% auto 4% auto;
+    margin: 15px auto;
     padding: 1% 5%;
     outline: 0;
     border-radius: 24px;
     text-align: center;
     border: 1px solid #000;
+    font-family: unset;
+
 }
 .button{
     border-radius: 24px;
-    padding: 11px;
+    padding: 10px 20px;
     outline: 0;
     cursor: pointer;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-weight: 600;
     letter-spacing: 1px;
     display: inline-block;
-    margin: 7px auto;
-    background: #FFFF!important;
+    margin: 1px auto;
+    background: #e8f0fe!important;
     color: #000!important;
+    border: none;
+    font-family: unset;
+
+
 }
 .card{
     width: 400px;
@@ -79,9 +84,6 @@ p i{
     font-weight: 300;
     width: 100%;
     display: block;
-    float: left;   font-family: inherit;
     letter-spacing: 6px;
-    text-align: center;
-    font-weight: 300;
 }
 
